@@ -1,0 +1,31 @@
+:root {
+    /* Primary Colors */
+    --primary-light-red: hsl(0, 100%, 67%);
+    --primary-orange-yellow: hsl(39, 100%, 56%);
+    --primary-green-teal: hsl(166, 100%,37%);
+    --primary-cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Background Colors */
+    --bg-slate-blue: hsl(252, 100%, 67%);
+    --bg-royal-blue: hsl(241, 81%, 54%);
+
+    /* Circle Colors */
+    --circle-violet-blue: hsla(256, 72%, 46%, 1);
+    --circle-persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* Neutral Colors */
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-pale-blue: hsl(221, 100%, 96%);
+    --neutral-light-lavender: hsl(241, 100%, 89%);
+    --neutral-dg-blue: hsl(224, 30%, 27%);
+
+    /* Typography */
+    --standard-font: 'Hanken Grotesk', sans-serif;
+    --p-size: 18px;
+
+    /* Desktop Max Width */
+    --desktop-max-width: 1440px;
+
+    /* Mobile Max Width */
+    --mobile-max-width: 375px;
+}
