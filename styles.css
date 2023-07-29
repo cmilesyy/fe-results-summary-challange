@@ -32,41 +32,101 @@
 
 /* Utility */
 
-body {
-  margin: 0;
-  padding: 100px 352px;
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.outer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-width: 768px;
-    max-height: 512px;
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: var(--neutral-pale-blue);
 }
 
+.main-container {
+  display: flex;
+  width: 736px;
+  height: 512px;
+  background-color: #fff;
+  margin-top: 100px;
+  border-radius: 32px;
+}
+/* Left Card */
 .left-card {
-    justify-content: center;
-    background-color: var(--bg-slate-blue);
-    border-radius: 20px;
-    
-
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  background-color: var(--bg-slate-blue);
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 32px;
 }
 
 .left-card h2 {
-    font-size: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--neutral-pale-blue);
+  margin-top: 38px;
+}
+
+.circle {
+  background-color: var(--bg-royal-blue);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.circle span {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+
+}
+
+.circle p {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--neutral-pale-blue);
+  opacity: 0.5168108344078064;
+}
+
+.left-card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 28px;
 }
 
 .left-card p {
-    font-size: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--neutral-pale-blue);
+  margin-top: 14px;
+  width: 260px;
 }
 
+
+/* Right Card */
+
 .right-card {
-    background-color: var(--neutral-white);
-    display: flex;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.right-card h2 {
+
 }
 
 /*Footer*/
