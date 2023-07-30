@@ -59,7 +59,7 @@ body {
   display: flex;
   width: 50%;
   flex-direction: column;
-  background-color: var(--bg-slate-blue);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   align-items: center;
   text-align: center;
   color: white;
@@ -74,7 +74,8 @@ body {
 }
 
 .circle {
-  background-color: var(--bg-royal-blue);
+  /* background-color: var(--bg-royal-blue); */
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -120,14 +121,122 @@ body {
   display: flex;
   width: 50%;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   color: black;
+  padding: 38px 0 0 40px;
 }
 
 .right-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--neutral-dg-blue);
+  padding-bottom: 28px;
+}
+
+/* Summary Section */
+
+.reaction, .memory, .verbal, .visual  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 288px;
+  height: 56px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  font-size: 18px;
 
 }
+
+.results p {
+  color: var(--neutral-dg-blue);
+  opacity: 0.5;
+}
+
+.results span {
+  color: var(--neutral-dg-blue);
+  margin-right: 8px;
+}
+
+/* Image padding */
+
+.image {
+  padding: 18px 12px 18px 16px;
+}
+
+/* Summary Backgrounds */
+.reaction {
+  background-color: hsl(0, 100%, 98%);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 98%);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 98%);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 98%);
+}
+/* Title Color */
+.reaction .title {
+  color: var(--primary-light-red);
+  opacity: 1;
+}
+
+.memory .title {
+  color: var(--primary-orange-yellow);
+  opacity: 1;
+}
+
+.verbal .title {
+  color: var(--primary-green-teal);
+  opacity: 1;
+}
+
+.visual .title {
+  color: var(--primary-cobalt-blue);
+  opacity: 1;
+}
+
+/* Figures Padding */
+
+.reaction .figures {
+  padding-left: 81px;
+}
+
+.memory .figures {
+  padding-left: 84px;
+}
+
+.verbal .figures {
+  padding-left: 99px;
+}
+
+.visual .figures {
+  padding-left: 102px;
+}
+
+/* Button */
+
+.button {
+  width: 288px;
+  height: 56px;
+  border-radius: 128px;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  background-color: var(--neutral-dg-blue);
+  margin-top: 37px;
+}
+
+
+
+
+
 
 /*Footer*/
 
